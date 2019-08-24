@@ -4,6 +4,8 @@
 
 Some content.
 
+{:style="clear:left"}
+
 ### Testing math
 
 <script type="text/javascript" async
