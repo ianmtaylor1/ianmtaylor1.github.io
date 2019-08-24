@@ -1,5 +1,7 @@
 ## Testing Github pages
 
+![Image](media/me.jpg)
+
 Some content.
 
 ### Testing math
