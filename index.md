@@ -1,6 +1,6 @@
 ## Testing Github pages
 
-![Image](media/me.jpg)
+![Me](media/me_small.jpg){:style="float:left"}
 
 Some content.
 
