@@ -1,3 +1,6 @@
 theme: jekyll-theme-slate
 
 title: Ian Taylor
+
+github:
+  is_project_page: false
