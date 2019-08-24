@@ -1,3 +1,7 @@
+---
+mathjax: true
+---
+
 ## Testing Github pages
 
 ![Me](media/me_small.jpg){:style="float:left"}
