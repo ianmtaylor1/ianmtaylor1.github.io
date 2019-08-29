@@ -1,6 +1,4 @@
-theme: jekyll-theme-tactile
+theme: minima
 
 title: Ian Taylor
 
-github:
-  is_project_page: false
