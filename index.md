@@ -1,5 +1,6 @@
 ---
 title: Welcome
+layout: home
 ---
 
 ## About Me
