@@ -1,4 +1,13 @@
 theme: minima
 
 title: Ian Taylor
+author: Ian Taylor
+
+header_pages:
+  - about.md
+
+minima:
+  social_links:
+    twitter: ianmtaylor
+    github: ianmtaylor1
 
