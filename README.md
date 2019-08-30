@@ -4,6 +4,8 @@ This repository is for my personal webpage. It doesn't have a defined purpose, i
 
 [Link](https://www.iantaylor.xyz/)
 
+The [wiki](https://github.com/ianmtaylor1/ianmtaylor1.github.io/wiki) has pages about development, etc.
+
 <!--- 
 Stuff from default page
 
