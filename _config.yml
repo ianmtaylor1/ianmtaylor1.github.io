@@ -2,6 +2,7 @@ theme: minima
 
 title: Ian Taylor
 author: Ian Taylor
+email: ian@iantaylor.xyz
 
 header_pages:
   - about.md
