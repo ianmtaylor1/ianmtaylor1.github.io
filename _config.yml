@@ -4,11 +4,10 @@ title: Ian Taylor
 author: Ian Taylor
 email: ian@iantaylor.xyz
 
-header_pages:
-  - about.md
-
 minima:
   social_links:
     twitter: ianmtaylor
     github: ianmtaylor1
 
+header_pages:
+  - about.md
