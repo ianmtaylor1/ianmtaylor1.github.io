@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About Me
-mathjax: true
 ---
 
 ![Me](assets/me.jpg)
