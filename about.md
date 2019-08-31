@@ -12,7 +12,7 @@ strategy analyst and senior analyst for CarMax Auto Finance.
 When I'm not working, I like weightlifting, computer projects, hiking, and 
 listening to podcasts. Coffee and beer enthusiast.
 
-###About this site
+### About this site
 
 I'm kind of intimidated by writing, which is not a great thing for a grad
 student to be. My hope is that by giving myself a low pressure environment for
