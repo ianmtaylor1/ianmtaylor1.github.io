@@ -3,6 +3,9 @@ theme: minima
 title: Ian Taylor
 author: Ian Taylor
 email: ian@iantaylor.xyz
+description: >
+    My personal webpage for showcasing my work, talking about things I find
+    interersting, and practicing writing, among other things.
 
 github_username: ianmtaylor1
 twitter_username: ianmtaylor
