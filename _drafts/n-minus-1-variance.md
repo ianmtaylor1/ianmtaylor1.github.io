@@ -41,3 +41,31 @@ the population from which our sample came.
 ### Simulation
 
 ### Proof
+
+If we can show that the expected value of $$SS$$ is $$(n-1)\sigma^2$$, then we
+will know that $$s^2 = \frac{SS}{n-1}$$ is unbiased. First, let's rework the
+formula for $$SS$$ a little bit into something that will be easier to work
+with:
+
+$$\begin{align*}
+SS &= \sum_{i=1}^n (x_i - \bar{x})^2 \\
+&= \sum_{i=1}^n (x_i^2 - 2x_i\bar{x} + \bar{x}^2) 
+    \color{blue}\text{ ,  by distributing the square} \\
+&= \sum_{i=1}^n x_i^2 - 2\bar{x}\sum_{i=1}^n x_i + n\bar{x}^2 
+    \color{blue}\text{ ,  by distributing the sum} \\
+&= \sum_{i=1}^n x_i^2 - 2n\bar{x}^2 + n\bar{x}^2 
+    \color{blue}\text{ ,  since $\sum_{i=1}^n x_i = n\bar{x}$} \\
+&= \sum_{i=1}^n x_i^2 - n\bar{x}^2
+\end{align*}$$
+
+Now, finding $$E[SS]$$ simplifies to
+
+$$\begin{align*}
+E[SS] &= E\left[\sum_{i=1}^n x_i^2 - n\bar{x}^2\right] \\
+&= \sum_{i=1}^n E[x_i^2] - nE[\bar{x}^2]
+    \color{blue}\text{ ,  by distributing the expected value} \\
+&= nE[x_1^2] - nE[\bar{x}^2]
+    \color{blue}\text{ ,  since all $x_i$ are distributed identically}
+\end{align*}.$$
+
+All we need to know now are $$E[x_1^2]$$ and $$E[\bar{x}^2]$$, and we will be able to find $$E[SS]$$.
