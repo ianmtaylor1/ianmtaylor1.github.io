@@ -3,7 +3,7 @@ layout: page
 title: About Me
 ---
 
-![Me](assets/me.jpg)
+![Me](https://f001.backblazeb2.com/file/www-iantaylor-xyz/about/me.jpg)
 
 I am a PhD student in statistics at Colorado State University (since 2017).
 I have a degree in math from Clemson University. After Clemson, I was a 
