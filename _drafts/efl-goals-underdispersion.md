@@ -6,9 +6,11 @@ categories: [efl]
 tags: [efl, model selection, poisson]
 ---
 
-
+This post is a fairly in-the-weeds discovery from a project that I've been working on in my spare time for a while now. It's a nuanced statistical concept, and it probably won't make sense without the context of the project. But it's cool, so here we go.
 
 ## EFL modeling project
+
+For a while I've been working on modeling the results of English soccer games to see if I can make good predictions of future games. One approach is to try to predict the actual score of each game.
 
 ## What is underdispersion?
 
