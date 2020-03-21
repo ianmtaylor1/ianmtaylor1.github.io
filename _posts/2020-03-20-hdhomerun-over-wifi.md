@@ -51,7 +51,7 @@ interface eth0
 static ip_address=192.168.2.1/24
 static routers=192.168.2.0
 ```
-Here my main network addresses are in the `192.168.0.x` block. I chose the address `192.168.0.222` for my Raspberry Pi, which is outside of my main router’s DHCP range. My router and DNS server are both at `192.168.0.1`. I chose `192.168.2.x` for the secondary network I’m creating behind the Pi’s ethernet port.
+Here my main network addresses are in the `192.168.0.x` block. I chose the address `192.168.0.222` for my Raspberry Pi, which is outside of my main router’s DHCP range. My router and DNS server are both at `192.168.0.1`. I chose `192.168.2.x` for the secondary network I’m creating behind the Pi’s ethernet port, with the Raspberry Pi itself at `192.168.2.1`.
 
 ### Step 2: DHCP server
 
@@ -78,7 +78,7 @@ dhcp-range=192.168.2.10,192.168.2.250,12h
 # HDHomeRun static IP address
 dhcp-host=<your HDHomeRun MAC address>,192.168.2.90
 ```
-The `listen-address` should be the same as the static address you created previously. `server=` should be a DNS server, but doesn’t need to be the same as the DNS server from before. The HDHomeRun's static IP address can be anything in the secondary network space (`192.168.2.x`). Make sure to replace your HDHomeRun's MAC address, removing the angle brackets also. That can usually be found on the label underneath the device.
+The `listen-address` should be the same as the static address you created previously for the ethernet interface. `server` should be a DNS server, but doesn’t need to be the same as the DNS server from before. The HDHomeRun's static IP address can be anything in the secondary network space (`192.168.2.x`). Make sure to replace your HDHomeRun's MAC address, removing the angle brackets also. That can usually be found on the label underneath the device.
 
 ### Step 3: routing
 
